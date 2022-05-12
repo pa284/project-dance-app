@@ -1,0 +1,29 @@
+img{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1px;
+}
+
+section h3{
+    text-align: center;
+    font-weight: initial;
+    font-family: Poppins, serif;
+}
+
+section p{
+    text-align: center;
+    font-family: Poppins, serif;
+    font-weight: initial;
+}
+
+.col-sm-4{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
